@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    color: #666;
+    font: 12px "微软雅黑";
+    width: 1520px;
+}
+
+.tou{
+    width: 1520px;
+    height: 30px;
+    background-color: #e3e4e5;
+}
+
+.daohan{
+    height: 30px;
+    margin: 0 auto;
+    width: 1190px;
+}
+
+.mulu{
+    margin: 0 auto;
+    float: right;
+    height: 30px;
+    width: 718px;
+}
+
+.nihao{
+    margin-right: 8px;
+}
+
+.shu{
+    margin: 0 5px;
+}
+
+.dd{
+    padding: 0 7px;
+}
+
+.mfzc{
+    color: red;
+}
+
+.qycg{
+    color: red;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 30px;
+    float: right;
+}
+
+li{
+    float: left;
+    line-height: 30px;
+}
+
+.jd{
+    position: relative;
+    z-index: 1;
+    border: 1px solid #e3e4e5;
+    height: 28px;
+    line-height: 28px;
+    padding-left:7px;
+}
+
+.wdjd{
+    float: left;
+    top: 30px;
+    display: none;
+    width: 280px;
+    height: 163px;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wdjd a{
+    line-height: 24px;
+}
+
+.cd1{
+    width: 265px;
+    height: 72px;
+    padding: 10px 0px 10px 15px;
+}
+
+.list1{
+    height: 72px;
+    float: left;
+    width: 126px;
+}
+
+.list2{
+    height: 72px;
+    float: left;
+    width: 126px;
+}
+
+.cd2{
+    width: 265px;
+    height: 48px;
+    padding: 10px 0px 10px 15px;
+    border-top: 1px solid #f1f1f1;
+}
+
+.item{
+    height: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover{
+    color: red;
+}
+
+ul>li:hover .wdjd{
+    height: 163px;
+    display: block;
+}
+
+.bg:hover .jd{
+    border-color: #ccc;
+    border-bottom: none;
+    padding-bottom: 2px;
+    background-color: #fff;
+}
